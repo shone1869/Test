@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Optional: Add some basic body padding */
+        body {
+            padding-top: 4rem; /* Space for the fixed header */
+        }
+        /* Optional: Style for active link */
+        .nav-link.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <nav class="bg-blue-600 p-4 fixed top-0 left-0 right-0 z-10">
+        <div class="container mx-auto flex justify-center space-x-8">
+            <a href="index.html" class="nav-link text-white hover:text-blue-200 transition duration-300">Main</a>
+            <a href="home.html" class="nav-link text-white hover:text-blue-200 transition duration-300 active" aria-current="page">Home</a>
+            <a href="about.html" class="nav-link text-white hover:text-blue-200 transition duration-300">About</a>
+        </div>
+    </nav>
+
+    <div class="container mx-auto mt-8 p-6 bg-white rounded-lg shadow-md">
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">Welcome to the Home Page</h1>
+        <p class="text-gray-700 text-lg leading-relaxed">
+            This is the home page of your website. You can put content relevant to the main purpose of your site here.
+        </p>
+        </div>
+
+</body>
+</html>
